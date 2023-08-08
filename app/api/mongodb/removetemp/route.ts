@@ -13,7 +13,7 @@ export async function POST(req: Request, res: Response) {
   const db = client.db("imgendata");
   try {
     const tempCollection = db.collection("temp");
-    const result = await tempCollection.deleteMany();
+    const result = await tempCollection.deleteMany({});
     return NextResponse.json({ result });
   } catch (error) {
     console.error("Error deleting document:", error);

@@ -14,8 +14,8 @@ export async function GET(req: Request, res: Response) {
 
   try {
     const tempCollection = db.collection("temp");
-    const result = await tempCollection.findOne({});
-    return NextResponse.json(result);
+    const result = await tempCollection.find({});
+    return NextResponse.json({ result });
   } catch (error) {
     console.error("Error generating output:", error);
     return;
