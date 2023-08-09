@@ -257,7 +257,7 @@ export default function Home() {
         <div className="h-[500px] m-auto overflow-hidden relative w-auto">
           <ul className="flex w-[calc(500px*28)] animate-scroll">
             <li className="w-[896px]">
-              <img src="https://i.imgur.com/btegyvp.png" alt="Image 1" />
+              <img src="https://i.imgur.com/x39dgfO.png" alt="Image 1" />
             </li>
             <li className="w-[896px]">
               <img src="https://i.imgur.com/4gdcoQq.png" alt="Image 2" />
@@ -269,14 +269,16 @@ export default function Home() {
               <img src="https://i.imgur.com/8SNqWwt.png" alt="Image 4" />
             </li>
             <li className="w-[896px]">
-              <img src="https://i.imgur.com/4gdcoQq.png" alt="Image 5" />
+              <img src="https://i.imgur.com/GD9st9y.png" alt="Image 5" />
             </li>
             <li className="w-[896px]">
               <img src="https://i.imgur.com/3uxoSdF.png" alt="Image 6" />
             </li>
-            <li className="w-[896px]">Image 7</li>
             <li className="w-[896px]">
-              <img src="https://i.imgur.com/btegyvp.png" alt="Image 1" />
+              <img src="https://i.imgur.com/zpJRdBx.png" alt="Image 7" />
+            </li>
+            <li className="w-[896px]">
+              <img src="https://i.imgur.com/x39dgfO.png" alt="Image 1" />
             </li>
             <li className="w-[896px]">
               <img src="https://i.imgur.com/4gdcoQq.png" alt="Image 2" />
@@ -288,12 +290,14 @@ export default function Home() {
               <img src="https://i.imgur.com/8SNqWwt.png" alt="Image 4" />
             </li>
             <li className="w-[896px]">
-              <img src="https://i.imgur.com/4gdcoQq.png" alt="Image 5" />
+              <img src="https://i.imgur.com/GD9st9y.png" alt="Image 5" />
             </li>
             <li className="w-[896px]">
               <img src="https://i.imgur.com/3uxoSdF.png" alt="Image 6" />
             </li>
-            <li className="w-[896px]">Image 7</li>
+            <li className="w-[896px]">
+              <img src="https://i.imgur.com/zpJRdBx.png" alt="Image 7" />
+            </li>
           </ul>
         </div>
       </div>
